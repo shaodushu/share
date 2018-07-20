@@ -200,7 +200,6 @@ export default class CanvasDrawer extends Component<Props, State> {
         }
     }
     drawTextLine(left, top, textDecoration, color, fontSize, content) {
-        console.log('绘制直线...')
         if (textDecoration === 'underline') {
             this.drawRect({
                 background: color,
